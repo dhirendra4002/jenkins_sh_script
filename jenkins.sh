@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update
 sudo apt install default-jdk -y
 sudo mkdir -p /usr/share/keyrings
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
